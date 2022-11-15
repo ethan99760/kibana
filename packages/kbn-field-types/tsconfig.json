@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.bazel.json",
+  "compilerOptions": {
+    "outDir": "target_types",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "types": [
+      "jest",
+    ],
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}

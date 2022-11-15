@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Intro component renders correctly 1`] = `
+<header
+  class="euiPageHeader emotion-euiPageHeader"
+>
+  <div
+    class="euiPageHeaderContent emotion-euiPageHeaderContent-border-l"
+  >
+    <div
+      class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--directionRow euiFlexGroup--responsive euiPageHeaderContent__top"
+    >
+      <div
+        class="euiFlexItem"
+      >
+        <h1
+          class="euiTitle emotion-euiTitle-l"
+        >
+          Inspect saved object
+        </h1>
+      </div>
+      <div
+        class="euiFlexItem euiFlexItem--flexGrowZero"
+      >
+        <div
+          class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--directionRowReverse euiFlexGroup--wrap"
+        >
+          <div
+            class="euiFlexItem euiFlexItem--flexGrowZero"
+          >
+            <a
+              class="euiButton emotion-euiButtonDisplay-s-s-base-primary"
+              data-test-subj="savedObjectEditViewInApp"
+              href="/some-url"
+              rel="noreferrer"
+            >
+              <span
+                class="emotion-euiButtonDisplayContent"
+              >
+                <span
+                  color="inherit"
+                  data-euiicon-type="eye"
+                />
+                View saved object
+              </span>
+            </a>
+          </div>
+          <div
+            class="euiFlexItem euiFlexItem--flexGrowZero"
+          >
+            <button
+              class="euiButton emotion-euiButtonDisplay-s-s-base-danger"
+              data-test-subj="savedObjectEditDelete"
+              type="button"
+            >
+              <span
+                class="emotion-euiButtonDisplayContent"
+              >
+                <span
+                  color="inherit"
+                  data-euiicon-type="trash"
+                />
+                Delete
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+`;

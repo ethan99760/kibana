@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.bazel.json",
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "target_types",
+    "skipLibCheck": true,
+    "target": "es2015",
+    "types": [
+      "node",
+      "@kbn/ambient-storybook-types"
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
